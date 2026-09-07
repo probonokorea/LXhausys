@@ -1127,6 +1127,88 @@
   </div>
 </section>
 
+<!-- ============ [신규 시각 파트 1] 지원 자재 형상 쇼케이스 ============ -->
+<section class="section material-grid bg-offwhite" id="materials">
+  <div class="container mg-intro fade-in">
+    <span class="label">MATERIAL</span>
+    <h2 class="sub-headline">실제 시공되는<br>친환경 바닥재입니다.</h2>
+    <p class="body-copy" style="margin-top:14px;">현장 규격과 질감이 서로 다른 세 가지 자재군을 상황에 맞춰 매칭해 드립니다.</p>
+  </div>
+  <div class="container mat-row fade-in">
+    <div class="mat-card">
+      <div class="mat-thumb t-stone">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="8" height="8" rx="0.6"></rect><rect x="13" y="3" width="8" height="8" rx="0.6"></rect><rect x="3" y="13" width="8" height="8" rx="0.6"></rect><rect x="13" y="13" width="8" height="8" rx="0.6"></rect></svg>
+      </div>
+      <div class="mat-num">01</div>
+      <div class="mat-name">스톤 텍스처 타일</div>
+      <div class="mat-desc">대면적(450×900mm) 규격의 고급 석재 질감 표면으로, 넓은 복도와 다목적 공간의 내구성을 높입니다.</div>
+      <span class="mat-tag">450×900mm · 내구성 표면</span>
+    </div>
+    <div class="mat-card">
+      <div class="mat-thumb t-click">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h7v8H3z"></path><path d="M14 8h7v8h-7z"></path><path d="M10 10l4 0"></path><path d="M10 14l4 0"></path></svg>
+      </div>
+      <div class="mat-num">02</div>
+      <div class="mat-name">5G 클릭형 바닥재</div>
+      <div class="mat-desc">본드 없이 맞물리는 비접착식 인터락 결합 방식으로, 협력 시공 당일 빠르고 깔끔하게 시공됩니다.</div>
+      <span class="mat-tag">비접착식 · 인터락 결합</span>
+    </div>
+    <div class="mat-card">
+      <div class="mat-thumb t-roll">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="4" rx="1"></rect><rect x="3" y="13" width="18" height="4" rx="1"></rect><path d="M6 11v2"></path><path d="M12 11v2"></path><path d="M18 11v2"></path></svg>
+      </div>
+      <div class="mat-num">03</div>
+      <div class="mat-name">고쿠션 롤 시트</div>
+      <div class="mat-desc">층간소음 저감 하부 폼(1.5mm)과 미끄럼 방지 기능성 층을 더해, 보행 안전과 소음 완화를 동시에 챙깁니다.</div>
+      <span class="mat-tag">완충 폼 1.5mm · 미끄럼 방지</span>
+    </div>
+  </div>
+
+  <div class="container mat-detail fade-in">
+    <div class="mat-detail-panel">
+
+      <!-- 슬라이드 1: 스톤 텍스처 타일 -->
+      <div class="mat-detail-slide active" data-slide="0">
+        <div class="mat-image-wrap">
+          <img src="https://cdn.imweb.me/thumbnail/20260907/b77eadad65fdc.png" alt="스톤 텍스처 타일 시공 이미지" onerror="handleImgError(this,'이미지 삽입 영역 · material-01-stone.jpg')">
+        </div>
+        <p class="mat-image-caption">스톤 텍스처 타일 · 450×900mm 규격, 5G Click 구조</p>
+      </div>
+
+      <!-- 슬라이드 2: 5G 클릭형 바닥재 -->
+      <div class="mat-detail-slide" data-slide="1">
+        <div class="mat-image-wrap">
+          <img src="https://cdn.imweb.me/thumbnail/20260907/d00afdfa64fd1.png" alt="5G 클릭형 바닥재 시공 이미지" onerror="handleImgError(this,'이미지 삽입 영역 · material-02-click.jpg')">
+        </div>
+        <p class="mat-image-caption">5G 클릭형 바닥재 · 비접착식 인터락 결합</p>
+      </div>
+
+      <!-- 슬라이드 3: 고쿠션 롤 시트 -->
+      <div class="mat-detail-slide" data-slide="2">
+        <div class="mat-image-wrap">
+          <img src="https://cdn.imweb.me/thumbnail/20260907/28d878c714712.png" alt="고쿠션 롤 시트 시공 이미지" onerror="handleImgError(this,'이미지 삽입 영역 · material-03-roll.jpg')">
+        </div>
+        <p class="mat-image-caption">고쿠션 롤 시트 · 완충 폼 1.5mm, 미끄럼 방지</p>
+      </div>
+
+    </div>
+
+    <div class="mat-controls">
+      <button type="button" class="mat-nav-btn" id="matPrev" aria-label="이전 자재">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+      </button>
+      <div class="mat-dots" id="matDots">
+        <button type="button" class="mat-dot active" data-idx="0" aria-label="1번 자재로 이동"></button>
+        <button type="button" class="mat-dot" data-idx="1" aria-label="2번 자재로 이동"></button>
+        <button type="button" class="mat-dot" data-idx="2" aria-label="3번 자재로 이동"></button>
+      </div>
+      <button type="button" class="mat-nav-btn" id="matNext" aria-label="다음 자재">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+      </button>
+    </div>
+  </div>
+</section>
+
 <!-- ============ 섹션 3. 핵심 공모 요강 및 3대 시공 기준 ============ -->
 <section class="section criteria bg-offwhite" id="overview">
   <div class="container criteria-intro fade-in">
@@ -1171,88 +1253,6 @@
         </div>
         <div class="check-result" id="checkResult">체크박스를 눌러 대상 여부를 확인해보세요.</div>
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ [신규 시각 파트 1] 지원 자재 형상 쇼케이스 ============ -->
-<section class="section material-grid bg-offwhite" id="materials">
-  <div class="container mg-intro fade-in">
-    <span class="label">MATERIAL</span>
-    <h2 class="sub-headline">실제 시공되는<br>친환경 바닥재입니다.</h2>
-    <p class="body-copy" style="margin-top:14px;">현장 규격과 질감이 서로 다른 세 가지 자재군을 상황에 맞춰 매칭해 드립니다.</p>
-  </div>
-  <div class="container mat-row fade-in">
-    <div class="mat-card">
-      <div class="mat-thumb t-stone">
-        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="8" height="8" rx="0.6"></rect><rect x="13" y="3" width="8" height="8" rx="0.6"></rect><rect x="3" y="13" width="8" height="8" rx="0.6"></rect><rect x="13" y="13" width="8" height="8" rx="0.6"></rect></svg>
-      </div>
-      <div class="mat-num">01</div>
-      <div class="mat-name">스톤 텍스처 타일</div>
-      <div class="mat-desc">대면적(450×900mm) 규격의 고급 석재 질감 표면으로, 넓은 복도와 다목적 공간의 내구성을 높입니다.</div>
-      <span class="mat-tag">450×900mm · 내구성 표면</span>
-    </div>
-    <div class="mat-card">
-      <div class="mat-thumb t-click">
-        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h7v8H3z"></path><path d="M14 8h7v8h-7z"></path><path d="M10 10l4 0"></path><path d="M10 14l4 0"></path></svg>
-      </div>
-      <div class="mat-num">02</div>
-      <div class="mat-name">5G 클릭형 바닥재</div>
-      <div class="mat-desc">본드 없이 맞물리는 비접착식 인터락 결합 방식으로, 협력 시공 당일 빠르고 깔끔하게 시공됩니다.</div>
-      <span class="mat-tag">비접착식 · 인터락 결합</span>
-    </div>
-    <div class="mat-card">
-      <div class="mat-thumb t-roll">
-        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="4" rx="1"></rect><rect x="3" y="13" width="18" height="4" rx="1"></rect><path d="M6 11v2"></path><path d="M12 11v2"></path><path d="M18 11v2"></path></svg>
-      </div>
-      <div class="mat-num">03</div>
-      <div class="mat-name">고쿠션 롤 시트</div>
-      <div class="mat-desc">층간소음 저감 하부 폼(1.5mm)과 미끄럼 방지 기능성 층을 더해, 보행 안전과 소음 완화를 동시에 챙깁니다.</div>
-      <span class="mat-tag">완충 폼 1.5mm · 미끄럼 방지</span>
-    </div>
-  </div>
-
-  <div class="container mat-detail fade-in">
-    <div class="mat-detail-panel">
-
-      <!-- 슬라이드 1: 스톤 텍스처 타일 -->
-      <div class="mat-detail-slide active" data-slide="0">
-        <div class="mat-image-wrap">
-          <img src="https://cdn.imweb.me/thumbnail/20260907/92d2de789e1ae.png" alt="스톤 텍스처 타일 시공 이미지" onerror="handleImgError(this,'이미지 삽입 영역 · material-01-stone.jpg')">
-        </div>
-        <p class="mat-image-caption">스톤 텍스처 타일 · 450×900mm 규격, 5G Click 구조</p>
-      </div>
-
-      <!-- 슬라이드 2: 5G 클릭형 바닥재 -->
-      <div class="mat-detail-slide" data-slide="1">
-        <div class="mat-image-wrap">
-          <img src="https://cdn.imweb.me/thumbnail/20260907/f842d43b52157.png" alt="5G 클릭형 바닥재 시공 이미지" onerror="handleImgError(this,'이미지 삽입 영역 · material-02-click.jpg')">
-        </div>
-        <p class="mat-image-caption">5G 클릭형 바닥재 · 비접착식 인터락 결합</p>
-      </div>
-
-      <!-- 슬라이드 3: 고쿠션 롤 시트 -->
-      <div class="mat-detail-slide" data-slide="2">
-        <div class="mat-image-wrap">
-          <img src="https://cdn.imweb.me/thumbnail/20260907/b31540dbd253c.png" alt="고쿠션 롤 시트 시공 이미지" onerror="handleImgError(this,'이미지 삽입 영역 · material-03-roll.jpg')">
-        </div>
-        <p class="mat-image-caption">고쿠션 롤 시트 · 완충 폼 1.5mm, 미끄럼 방지</p>
-      </div>
-
-    </div>
-
-    <div class="mat-controls">
-      <button type="button" class="mat-nav-btn" id="matPrev" aria-label="이전 자재">
-        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
-      </button>
-      <div class="mat-dots" id="matDots">
-        <button type="button" class="mat-dot active" data-idx="0" aria-label="1번 자재로 이동"></button>
-        <button type="button" class="mat-dot" data-idx="1" aria-label="2번 자재로 이동"></button>
-        <button type="button" class="mat-dot" data-idx="2" aria-label="3번 자재로 이동"></button>
-      </div>
-      <button type="button" class="mat-nav-btn" id="matNext" aria-label="다음 자재">
-        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
-      </button>
     </div>
   </div>
 </section>
